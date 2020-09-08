@@ -36,11 +36,9 @@ li a:hover{
     list-style-type: none;
 }
 
-table,th,tr,td{
-    border: 1px hidden;
-}
 
-th{
+
+.tablestyleheadings{
     background-color: #00a6aa;
 }
 
@@ -48,7 +46,7 @@ th{
     text-align: center;
 }
 
-td{
+.tablestyledata{
     background-color: lightgray;
 }
 
@@ -60,6 +58,7 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    border: 1px hidden;
 }
 
 #linktext{
@@ -103,4 +102,13 @@ p{
 
 #studymonitor{
     text-align: left;
+}
+
+#characteristics{
+    border: 5px solid black;
+    background-color:lightgrey;
+}
+
+#characteristics th td{
+    border: 2px solid black;
 }
