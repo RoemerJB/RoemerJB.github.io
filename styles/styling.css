@@ -7,12 +7,13 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .nav{
     float: left;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: ivory;
     justify-items: center;
@@ -56,7 +57,9 @@ body{
 }
 
 #tablestyle{
-    margin-left: 490px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 #linktext{
@@ -83,8 +86,12 @@ a:visited{
     
 }
 
+p{
+    text-align: center;
+    margin-top: 75px;
+}
+
 #guide{
-    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: space-around;
