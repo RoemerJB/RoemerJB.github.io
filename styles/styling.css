@@ -36,11 +36,15 @@ li a:hover{
 }
 
 table,th,tr,td{
-    border: 1px solid lightslategray;
+    border: 1px hidden;
 }
 
 th{
     background-color: #00a6aa;
+}
+
+.quartile, .ec, .grade{
+    text-align: center;
 }
 
 td{
