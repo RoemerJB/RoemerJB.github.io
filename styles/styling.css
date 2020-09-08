@@ -55,7 +55,9 @@ body{
     background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 }
 
-
+#tablestyle{
+    margin-left: 490px;
+}
 
 #linktext{
     padding: 20px;
