@@ -31,12 +31,18 @@ li a:hover{
     color: lightgray;
 }
 
+#description{
+    text-align: left;
+}
 
 #faq{
     list-style-type: none;
 }
 
-
+.lists{
+    list-style-type: none;
+    
+}
 
 .tablestyleheadings{
     background-color: #00a6aa;
@@ -102,4 +108,10 @@ p{
 
 #studymonitor{
     text-align: left;
+}
+
+.katten{
+    border: 3px solid ivory;
+    width: auto;
+    height: 250px;
 }
