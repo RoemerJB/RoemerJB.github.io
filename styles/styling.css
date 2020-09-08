@@ -1,0 +1,93 @@
+*{
+    font-family: helvetica;
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.nav{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: ivory;
+    justify-items: center;
+}
+
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: lightgray;
+}
+
+
+#faq{
+    list-style-type: none;
+}
+
+table,th,tr,td{
+    border: 1px solid lightslategray;
+}
+
+th{
+    background-color: #00a6aa;
+}
+
+td{
+    background-color: lightgray;
+}
+
+body{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+
+
+#linktext{
+    padding: 20px;
+    background-color: #00a6aa;
+    margin: 10px;
+    border-radius: 0%;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+#assignment{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#guide{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+}
+
+#profile{
+    color: ivory;
+}
+
+#studymonitor{
+    text-align: left;
+}
