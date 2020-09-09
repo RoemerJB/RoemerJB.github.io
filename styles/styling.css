@@ -84,17 +84,13 @@ a:visited{
 }
 
 #assignment{
-    text-align: center;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     
 }
 
-p{
-    text-align: center;
-    margin-top: 75px;
-}
+
 
 #guide{
     display: flex;
@@ -111,7 +107,8 @@ p{
 }
 
 .katten{
-    border: 3px solid ivory;
-    width: auto;
-    height: 250px;
+    border: none;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
