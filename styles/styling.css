@@ -9,7 +9,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    background: linear-gradient(45deg, rgb(202, 152, 24), goldenrod);
+    background: linear-gradient(45deg, rgb(194, 145, 21), goldenrod);
 }
 
 .nav{
@@ -59,8 +59,15 @@ li a:hover{
 }
 
 body{
-    background: linear-gradient(45deg, rgb(65, 1, 1), rgb(75, 2, 2)); ;
+    background: linear-gradient(45deg, rgb(175, 172, 172), rgb(75, 2, 2)); ;
     margin: 0;
+    height: 963.79px;
+}
+
+footer{
+    background: linear-gradient(45deg, rgb(194, 145, 21), goldenrod);
+    
+    height: 66.4px;
 }
 
 #tablestyle{
@@ -100,16 +107,14 @@ a:visited{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-top: 177px;
+    margin-top: 179px;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    background: linear-gradient(45deg, rgb(202, 152, 24), goldenrod);
 }
 
 #profile{
     color: ivory;
-    background: navy;
 }
 
 .katten{
