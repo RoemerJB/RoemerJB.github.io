@@ -9,6 +9,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    background: linear-gradient(45deg, rgb(202, 152, 24), goldenrod);
 }
 
 .nav{
@@ -37,6 +38,7 @@ li a:hover{
 
 #faq{
     list-style-type: none;
+    color: ivory;
 }
 
 .lists{
@@ -53,11 +55,12 @@ li a:hover{
 }
 
 .tablestyledata{
-    background-color: lightgray;
+    background-color: rgb(245, 245, 228);
 }
 
 body{
-    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    background: linear-gradient(45deg, rgb(65, 1, 1), rgb(75, 2, 2)); ;
+    margin: 0;
 }
 
 #tablestyle{
@@ -65,18 +68,17 @@ body{
     display: flex;
     justify-content: center;
     border: 1px hidden;
+    text-align: left;
 }
 
-#linktext{
-    padding: 20px;
-    background-color: #00a6aa;
-    margin: 10px;
+.linktext{
+    margin: 20px;
     border-radius: 0%;
     font-weight: bold;
     display: block;
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: ivory;
+    font-size: 25px;
 }
 
 a:visited{
@@ -86,24 +88,28 @@ a:visited{
 #assignment{
     margin-top: 50px;
     display: flex;
-    flex-direction: column;
-    
+    color: ivory;
 }
 
-
+#home{
+    text-align: center;
+    color: ivory;
+}
 
 #guide{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 177px;
+    overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: space-around;
+    background: linear-gradient(45deg, rgb(202, 152, 24), goldenrod);
 }
 
 #profile{
     color: ivory;
-}
-
-#studymonitor{
-    text-align: left;
+    background: navy;
 }
 
 .katten{
@@ -111,5 +117,5 @@ a:visited{
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    padding-left: 100px;
+    margin-left: 250px;
 }
